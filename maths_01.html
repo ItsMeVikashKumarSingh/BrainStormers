@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths</title>
+    <style>
+        
+        td{
+            text-align: center;
+            font-size: 24px;
+            border: 1px solid black;
+           
+        }
+       /*  {<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.css" />
+    <style type="text/css">} */
+        html body {
+            font-family: 'Arial';
+            font-size: 20px;
+        }
+        html body h2 {
+            font-size: 30px;
+            font-weight: bold;
+            padding: 20px;
+            margin-bottom: 20px;
+            
+        }
+        .box {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        #normal_div {
+            background: rgb(223, 95, 63); 
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body style="margin: 0px ;">
+    <header  style="background-color: gray;height: 2rem;">
+        <p>
+            <label>Subject</label>
+            <select name="track" id="track">
+              <option value="c1">Maths</option>
+              <option value="c2">Environment Science</option>
+              <option value="c4">English</option>
+              <option value="c5">Hindi</option>
+              <option value="c6">moral value</option>
+              <option value="c11">computer</option>
+            </select>
+            </p>
+            <p>
+    </header>
+    <main> <h2> <hr>Chapter 01 <hr></h2>
+       
+
+    <div class="box">
+        <h2>Topic 01</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xjVJrm3lnnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div><hr>
+
+    <!-- <div class="box">
+        <h2>Example for normal div</h2>
+        <div id="normal_div"></div>
+    </div> -->
+    <div class="box">
+        <h2>Topic 02</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zEWGx-N9_PA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div><hr>
+    <div class="box">
+        <h2>Topic 03</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wFBOXwbSFKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div><hr>
+
+    <!-- <div class="box">
+        <h2>Example for normal div</h2>
+        <div id="normal_div"></div>
+    </div> -->
+    <div class="box">
+        <h2>Topic 04</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k-ToUceOUb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div><hr>
+    <div class="box">
+        <h2>Topic 05</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/94Q2MT_MvDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+<hr>
+    <!-- <div class="box">
+        <h2>Example for normal div</h2>
+        <div id="normal_div"></div>
+    </div> -->
+    <div class="box">
+        <h2>Topic 06</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2Jad_cF81-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div><hr>
+    <div class="box">
+        <h2>Topic 07</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JoOYJHtGfAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+<hr>
+    <!-- <div class="box">
+        <h2>Example for normal div</h2>
+        <div id="normal_div"></div>
+    </div> -->
+    <div class="box">
+        <h2>Topic 08</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/axtN7GusnaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div><hr>
+    <script type="text/javascript" src="/assets/js/videoResponsive.js"></script>
+    <script>
+        // Settings for embed youtube video
+        let defaultsVideo = { 
+            width : 560,                // default width
+            height : 315,               // default height
+            minwidth : 960,             // define min width to scale
+            maxwidth: 1300,             // define max width to scale
+            mobileBreakpoint: 480,      // define default breakpoint
+            mobileW: 480,               // default mobile width to calc ratio under breakpoint
+            mobileH: 480                // default mobile height to calc ratio under breakpoint
+        };
+        videoResponsive('youtube_example',defaultsVideo);
+
+        // it's possibile apply also to a normal div that haven't default sizes
+        let defaultsDiv = { 
+            width : 630,                // default width
+            height : 380,               // default height
+            minwidth : 960,             // define min width to scale
+            maxwidth: 1300,             // define max width to scale
+            mobileBreakpoint: 480,      // define default breakpoint
+            mobileW: 480,               // default mobile width to calc ratio under breakpoint
+            mobileH: 480                // default mobile height to calc ratio under breakpoint
+        };
+        videoResponsive('normal_div',defaultsDiv);
+
+        // recalc on resize
+        window.onresize = function(event) {
+            videoResponsive('youtube_example',defaultsVideo);
+            videoResponsive('normal_div',defaultsDiv);
+        };
+
+    </script>
+    </main>
+</body>
+</html>    
